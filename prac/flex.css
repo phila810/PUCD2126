@@ -1,0 +1,23 @@
+.parent {
+  border: 5px solid lightcoral;
+  width: 1255px;
+  height: 620px;
+}
+
+.item {
+  height: 50px;
+  margin: 5px;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.parent {display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 50px;
+}
