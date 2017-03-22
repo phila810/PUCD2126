@@ -13,17 +13,9 @@ h1{
 	font-style:oblique;
 	color: red;
 }
-.line {
-		background-color:black;
-		width:15px;
-		position:absolute;
-		top: 1000px;
-		left:140px;
-		border-radius:50px;
-		height:2000px;
-	}
 
-#show {
+
+#kingsmen {
 	position:relative;
 	top:1000px;
 	background:none;
@@ -33,11 +25,20 @@ h1{
 	outline:0;
 	font-family: 'Univers', sans-serif;
 	font-style:oblique;
+	font-weight: bold;
+	font-size: 20px;
 }
 
-#spotify-container {
+.louie {
 	display: none;
   position:relative;
-  top:500px;
-  left:500px;
+  top:1300px;
+  left:900px;
+}
+
+.money {
+	display: none;
+	position: relative;
+	top:1300px;
+	left:700px;
 }
