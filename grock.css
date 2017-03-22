@@ -1,0 +1,43 @@
+.crowd {
+	position: absolute;
+	height:900px;
+	width:1280px;
+	left:0;
+	top:0;
+}
+h1{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Univers', sans-serif;
+	font-style:oblique;
+	color: red;
+}
+.line {
+		background-color:black;
+		width:15px;
+		position:absolute;
+		top: 1000px;
+		left:140px;
+		border-radius:50px;
+		height:2000px;
+	}
+
+#show {
+	position:relative;
+	top:1000px;
+	background:none;
+  border:none;
+  margin:0;
+  padding:0;
+	outline:0;
+	font-family: 'Univers', sans-serif;
+	font-style:oblique;
+}
+
+#spotify-container {
+	display: none;
+  position:relative;
+  top:500px;
+  left:500px;
+}
