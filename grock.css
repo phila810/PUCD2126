@@ -38,7 +38,15 @@ h1{
 
 .money {
 	display: none;
-	position: relative;
+	position: absolute;
 	top:1300px;
 	left:700px;
+}
+
+.video {
+	position:absolute;
+	top:0;
+	left:0;
+	width:20%;
+	height:20%;
 }
