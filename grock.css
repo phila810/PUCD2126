@@ -29,24 +29,52 @@ h1{
 	font-size: 20px;
 }
 
+.container1 {
+	display:none;
+}
+
+.kings {
+	position: absolute;
+	top:1000px;
+	left:340px;
+}
+
 .louie {
-	display: none;
-  position:relative;
-  top:1300px;
-  left:900px;
+	position:absolute;
+  top:1060px;
+  left:1030px;
 }
 
 .money {
-	display: none;
 	position: absolute;
-	top:1300px;
-	left:700px;
+	top:1350px;
+	left:1030px;
+}
+.twist {
+	position: absolute;
+	top:1640px;
+	left:1030px;
 }
 
-.video {
+.kvideo1 {
 	position:absolute;
-	top:0;
-	left:0;
-	width:20%;
-	height:20%;
+	top:1410px;
+	left:8px;
+}
+.kvideo2 {
+	position: absolute;
+	top:1410px;
+	left:515px;
+}
+
+p {
+	position: absolute;
+	top:1050px;
+	font-family: 'Univers', sans-serif;
+	font-weight: normal;
+	font-size: 100%;
+	max-width: 300;
+	text-align: left;
+
+
 }
