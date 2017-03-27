@@ -8,18 +8,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-        $("button").click(function(){
+        $("#kingsmen").click(function(){
             $(".container1").toggle();
         });
     });
+
+    $(document).ready(function(){
+      $("#velvets").click(function(){
+        $(".container2").toggle();
+      });
+    });
+
     </script>
 
   </head>
 
     <body>
       <img src="crowd.png" class="crowd">
-      <h1>Garage Rock</h1>
+      <h1>Garage Rock:</h1>
+      <p2> Garage rock is a subgenre of rock'n'roll that dates back to the late 1950's
+        when amateur bands exploded across the United States. The name comes from the
+        assumption that bands practiced in suburban garages and were often very crude,
+        but this belies the fact that they were diverse in their approaches, ranging
+        from basic one or two chord wonders to very professional acts that even had
+        regional hits.</p2>
+      <a href="http://portfolio.adamelmakias.com/" >Photo: Adam Elmakias</a>
       <button id="kingsmen">1958 The Kingsmen</button>
+      <button id="velvets">1964 The Velvet Underground</button>
 
 
 
@@ -44,6 +59,14 @@
       good times and poor judgement set to music, as well as the
       most lyrically misinterpreted tune of its era.</p>
   </div>
+
+  <div class="container2">
+    <img src="velvets.jpg" class="velvet">
+
+  </div>
+
+
+
 </body>
 
 

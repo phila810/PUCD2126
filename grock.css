@@ -5,18 +5,37 @@
 	left:0;
 	top:0;
 }
+a {
+	position: absolute;
+	top:900px;
+	left:1150px;
+	font-family: 'Univers', sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	text-decoration: none;
+}
 h1{
 	position:absolute;
 	top:0px;
 	left:0px;
 	font-family: 'Univers', sans-serif;
 	font-style:oblique;
-	color: red;
+	color: #B21818;
+	font-size: 80px;
 }
-
-
+p2 {
+position: absolute;
+	top:300px;
+	left:450px;
+	font-family: 'Univers', sans-serif;
+	font-style:oblique;
+	color: #B21818;
+	font-size: 20px;
+	max-width:550;
+	line-height: 1.5;
+}
 #kingsmen {
-	position:relative;
+	position:absolute;
 	top:1000px;
 	background:none;
   border:none;
@@ -29,52 +48,81 @@ h1{
 	font-size: 20px;
 }
 
+
 .container1 {
 	display:none;
 }
 
-.kings {
-	position: absolute;
-	top:1000px;
-	left:340px;
-}
+				.kings {
+					position: absolute;
+					top:1000px;
+					left:340px;
+				}
 
-.louie {
-	position:absolute;
-  top:1060px;
-  left:1030px;
-}
+				.louie {
+					position:absolute;
+				  top:1060px;
+				  left:1030px;
+				}
 
-.money {
-	position: absolute;
-	top:1350px;
-	left:1030px;
-}
-.twist {
-	position: absolute;
-	top:1640px;
-	left:1030px;
-}
+				.money {
+					position: absolute;
+					top:1350px;
+					left:1030px;
+				}
+				.twist {
+					position: absolute;
+					top:1640px;
+					left:1030px;
+				}
 
-.kvideo1 {
-	position:absolute;
-	top:1410px;
-	left:8px;
-}
-.kvideo2 {
-	position: absolute;
-	top:1410px;
-	left:515px;
-}
+				.kvideo1 {
+					position:absolute;
+					top:1410px;
+					left:8px;
+				}
+				.kvideo2 {
+					position: absolute;
+					top:1410px;
+					left:515px;
+				}
 
-p {
+				p{
+					position: absolute;
+					top:1050px;
+					font-family: 'Univers', sans-serif;
+					font-weight: normal;
+					font-size: 100%;
+					line-height: 1.5;
+					max-width: 300;
+					text-align: left;
+
+
+
+				}
+
+#velvets {
 	position: absolute;
 	top:1050px;
+	background:none;
+	border:none;
+	margin:0;
+	padding:0;
+	outline:0;
 	font-family: 'Univers', sans-serif;
-	font-weight: normal;
-	font-size: 100%;
-	max-width: 300;
-	text-align: left;
-
-
+	font-style:oblique;
+	font-weight: bold;
+	font-size: 20px;
 }
+
+.container2 {
+	display:none;
+}
+
+				.velvet {
+					position: absolute;
+					top:1000px;
+					left:340px;
+					width:700px;
+					height: 500px;
+				}
