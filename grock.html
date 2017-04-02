@@ -6,64 +6,131 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        $("#kingsmen").click(function(){
-            $(".container1").toggle();
-        });
-    });
-
-    $(document).ready(function(){
-      $("#velvets").click(function(){
-        $(".container2").toggle();
-      });
-    });
-
-    </script>
+    <script  src="grock.js"></script>
 
   </head>
 
     <body>
-      <img src="crowd.png" class="crowd">
-      <h1>Garage Rock:</h1>
-      <p2> Garage rock is a subgenre of rock'n'roll that dates back to the late 1950's
+      <!--<img src="crowd.png" class="crowd">-->
+      <div class="header">
+      <h1>Garage Rock:The Timeline</h1>
+      <p class=header-p> Garage rock is a subgenre of rock'n'roll that dates back to the late 1950's
         when amateur bands exploded across the United States. The name comes from the
         assumption that bands practiced in suburban garages and were often very crude,
         but this belies the fact that they were diverse in their approaches, ranging
         from basic one or two chord wonders to very professional acts that even had
-        regional hits.</p2>
+        regional hits.</p>
       <a href="http://portfolio.adamelmakias.com/" >Photo: Adam Elmakias</a>
-      <button id="kingsmen">1958 The Kingsmen</button>
-      <button id="velvets">1964 The Velvet Underground</button>
+
+      <div class="buttoncontainer">
+        <button id="kingsmen">1958 The Kingsmen</button>
+        <button id="beatles">1960 The Beatles</button>
+        <button id="rollingstones">1962 The Rolling Stones</button>
+        <button id="kinks">1963 The Kinks</button>
+        <button id="sonics">1965 The Sonics</button>
+        <button id="velvets">1967 The Velvet Underground</button>
+        <button id="stooges">1969 The Stooges</button>
+        <button id="ramones">1974 The Ramones</button>
+        <button id="cramps"> 1976 The Cramps</button>
+        <button id="x"> 1977 X</button>
+        <button id="delfuegos"> 1980 The Del Fuegos</button>
+        <button id="oblivians">1993 Oblivians</button>
+        <button id="theeohsees">1997 Thee Oh Sees</button>
+        <button id="strokes">1998 The Strokes</button>
+        <button id="whitestripes">1999 White Stripes</button>
+        <button id="yeahyeahyeahs">2000 Yeah Yeah Yeahs</button>
+        <button id="blackkeys">2002 The Black Keys</button>
+        <button id="blacklips">2003 The Black Lips</button>
+        <button id="growlers">2006 The Growlers</button>
+        <button id="bassdrumofdeath">2008 Bass Drum of Death</button>
+        <button id="orwells">2009 The Orwells</button>
+        <button id="tysegall">2010 Ty Segall</button>
+        <button id="jayreatard">2011 Jay Reatard</button>
+        <button id="allahlas">2012 Allah-Las</button>
+      </div>
+    </div>
 
 
 
 
-<div class="container1">
-    <img src="kingsmen.jpg" class="kings">
-    <div class="louie"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0iA3xXSkSCiJywKyo1UKjQ" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
-    <div class="money"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A4OncTbCLRRozq30FZfx2Tc" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
-    <div class="twist"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A17tHACIYezyqzXVcDRRkaR" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
-    <div class="kvideo1"><iframe width="430" height="280" src="https://www.youtube.com/embed/GHgNq9dMViQ" frameborder="0" allowfullscreen></iframe></div>
-    <div class="kvideo2"><iframe width="430" height="280" src="https://www.youtube.com/embed/RQdQDCC9kl0" frameborder="0" allowfullscreen></iframe></div>
-    <p> It’s unfair to call the Kingsmen “one-hit-wonders,”
-      as they did have hits besides “Louie, Louie” (even if
-      they’re not well remembered today,) but very few bands
-      in the history of rock & roll managed to get as much
-      mileage from a single song as they did. Overlapping
-      the rowdy beer-bust bellow of frat rock with the
-      anyone-can-do-it sneer of garage rock, the Kingsmen
-      were unapologetically a party band, and decades after
-      the band was largely a memory, their version of “Louie, Louie”
-      stubbornly refused to die, the enduring symbol of youthful
-      good times and poor judgement set to music, as well as the
-      most lyrically misinterpreted tune of its era.</p>
+
+
+<div id="container1" class="band-container">
+    <p class="bandheaders">The Kingsmen</p>
+
+    <div class="band-content">
+      <p class="band-info"> It’s unfair to call the Kingsmen “one-hit-wonders,”
+        as they did have hits besides “Louie, Louie” (even if
+        they’re not well remembered today,) but very few bands
+        in the history of rock & roll managed to get as much
+        mileage from a single song as they did. Overlapping
+        the rowdy beer-bust bellow of frat rock with the
+        anyone-can-do-it sneer of garage rock, the Kingsmen
+        were unapologetically a party band, and decades after
+        the band was largely a memory, their version of “Louie, Louie”
+        stubbornly refused to die, the enduring symbol of youthful
+        good times and poor judgement set to music, as well as the
+        most lyrically misinterpreted tune of its era.</p>
+      <div class="audiocontainer">
+        <div class="audio"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0iA3xXSkSCiJywKyo1UKjQ" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+        <div class="audio"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A4OncTbCLRRozq30FZfx2Tc" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+        <div class="audio"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A17tHACIYezyqzXVcDRRkaR" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+      </div>
+      <div class="vidcontainer">
+          <div class="vid"><iframe width="430" height="280" src="https://www.youtube.com/embed/GHgNq9dMViQ" frameborder="0" allowfullscreen></iframe></div>
+          <div class="vid"><iframe width="430" height="280" src="https://www.youtube.com/embed/RQdQDCC9kl0" frameborder="0" allowfullscreen></iframe></div>
+      </div>
+
+    </div>
   </div>
 
-  <div class="container2">
-    <img src="velvets.jpg" class="velvet">
-
+<div id="container2" class="band-container">
+  <p class="bandheaders">The Velvet Underground</p>
+  <div class="band-content">
+    <p class="band-info">Few rock groups can claim to have broken
+      so much new territory, and maintain such consistent
+      brilliance on record, as the Velvet Underground during
+      their brief lifespan. It was the group’s lot to be ahead
+      of, or at least out of step with, their time. The mid - to
+      late ‘60s was an era of explosive growth and experimentation in rock, but the Velvets’ innovations — which blended the
+      energy of rock with the sonic adventurism of the avant-garde,
+      and introduced a new degree of social realism and sexual
+      kinkiness to rock lyrics — were too abrasive for the
+      mainstream to handle.<p/>
+      <div class="audiocontainer">
+      <div class="audio"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A1qdhcvW9Qo8YxNImH38AcP" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+      <div class="audio"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0ZfP7K8NoyJRjEfWWk8Mlv" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+      <div class="audio"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0tr7AiZtMcTWiHOVgUkhwd" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+    </div>
+    <div class="vidcontainer">
+      <div class="vid"><iframe width="430" height="280" src="https://www.youtube.com/embed/vgcuU_JWuQU" frameborder="0" allowfullscreen></iframe></div>
+      <div class="vid"><iframe width="430" height="280" src="https://www.youtube.com/embed/87Cyw9yhkMs" frameborder="0" allowfullscreen></iframe></div>
+    </div>
   </div>
+</div>
+
+  <!-- <div class="container2">
+    <p class="bandheaders">The Velvet Underground</p>
+    <img src="velvets.jpg" class="backgroundimg">
+    <div class="audio1"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A1qdhcvW9Qo8YxNImH38AcP" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+    <div class="audio2"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0ZfP7K8NoyJRjEfWWk8Mlv" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+    <div class="audio3"><iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0tr7AiZtMcTWiHOVgUkhwd" width="220" height="280" frameborder="0" allowtransparency="true"></iframe></div>
+  <div class="vidcontainer">
+    <div class="vid1"><iframe width="430" height="280" src="https://www.youtube.com/embed/vgcuU_JWuQU" frameborder="0" allowfullscreen></iframe></div>
+    <div class="vid2"><iframe width="430" height="280" src="https://www.youtube.com/embed/87Cyw9yhkMs" frameborder="0" allowfullscreen></iframe></div>
+  </div>
+
+
+
+
+
+
+
+
+
+  </div> -->
+
+
 
 
 

@@ -1,10 +1,8 @@
-.crowd {
-	position: absolute;
-	height:900px;
-	width:1280px;
-	left:0;
-	top:0;
+body{
+	overflow-x: hidden;
+	font-size: 1em;
 }
+
 a {
 	position: absolute;
 	top:900px;
@@ -14,115 +12,150 @@ a {
 	font-size: 10px;
 	text-decoration: none;
 }
+
+
 h1{
-	position:absolute;
-	top:0px;
-	left:0px;
+	margin: 0;
 	font-family: 'Univers', sans-serif;
 	font-style:oblique;
 	color: #B21818;
 	font-size: 80px;
 }
-p2 {
-position: absolute;
-	top:300px;
-	left:450px;
+
+.header .header-p{
 	font-family: 'Univers', sans-serif;
 	font-style:oblique;
+	font-weight: bold;
 	color: #B21818;
 	font-size: 20px;
 	max-width:550;
 	line-height: 1.5;
 }
-#kingsmen {
-	position:absolute;
-	top:1000px;
-	background:none;
-  border:none;
-  margin:0;
-  padding:0;
-	outline:0;
+
+.header{
+	margin:0%;
+	width: 80%;
+	height: 600px;
+	padding: 10%;
+	background: url("crowd.png");
+	background-repeat: no-repeat;
+	background-size: cover center, center;
+}
+
+.buttoncontainer {
+	width:100%;
+	text-align: center;
+
+}
+
+button {
+	width:250px;
+	margin:5px 20px;
 	font-family: 'Univers', sans-serif;
 	font-style:oblique;
 	font-weight: bold;
-	font-size: 20px;
-}
-
-
-.container1 {
-	display:none;
-}
-
-				.kings {
-					position: absolute;
-					top:1000px;
-					left:340px;
-				}
-
-				.louie {
-					position:absolute;
-				  top:1060px;
-				  left:1030px;
-				}
-
-				.money {
-					position: absolute;
-					top:1350px;
-					left:1030px;
-				}
-				.twist {
-					position: absolute;
-					top:1640px;
-					left:1030px;
-				}
-
-				.kvideo1 {
-					position:absolute;
-					top:1410px;
-					left:8px;
-				}
-				.kvideo2 {
-					position: absolute;
-					top:1410px;
-					left:515px;
-				}
-
-				p{
-					position: absolute;
-					top:1050px;
-					font-family: 'Univers', sans-serif;
-					font-weight: normal;
-					font-size: 100%;
-					line-height: 1.5;
-					max-width: 300;
-					text-align: left;
-
-
-
-				}
-
-#velvets {
-	position: absolute;
-	top:1050px;
+	font-size: 1em;
 	background:none;
 	border:none;
-	margin:0;
-	padding:0;
-	outline:0;
-	font-family: 'Univers', sans-serif;
-	font-style:oblique;
-	font-weight: bold;
-	font-size: 20px;
+	cursor:pointer;
+
 }
 
-.container2 {
+.backgroundimg {
+	width:70%;
+	height: 300px;
+	/*padding-top: 50%;*/
+	padding-left:0;
+}
+
+.band-container {
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 	display:none;
 }
 
-				.velvet {
-					position: absolute;
-					top:1000px;
-					left:340px;
-					width:700px;
-					height: 500px;
-				}
+.band-container .band-content {
+		margin-top:70%;
+}
+
+					#container1 .band-content{
+						margin-top: 30%;
+					}
+					#container2 .band-content{
+						margin-top: 30%;
+					}
+
+
+
+#container1 {
+	background-image: url("kingsmen.jpg");
+}
+
+#container2 {
+	background-image: url("velvets.jpg");
+}
+
+
+
+.bandheaders {
+	font-family: 'Univers', sans-serif;
+	font-style:oblique;
+	font-weight: bold;
+	color: #B21818;
+	font-size: 50px;
+}
+
+.band-info {
+	font-family: 'Univers', sans-serif;
+	font-weight: normal;
+	font-size: 100%;
+	line-height: 1.5;
+	padding:10px 15px;
+	max-width: 50%;
+	margin-left: 25%;
+	text-align: left;
+	background-color: rgba(255,255,255,.5);
+
+}
+
+.audiocontainer {
+	text-align: center;
+	padding-bottom: 3%;
+	padding-top: 2%;
+}
+
+.vidcontainer {
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.audio {
+	display:inline-flex;
+}
+
+.vid {
+	display:inline-flex;
+}
+
+
+
+
+
+
+		@media screen and (max-width:700px){
+			.header{
+				width:90%;
+				padding: 5%;
+				background: none;
+			}
+			.backgroundimg {
+				margin:0;
+				width:100%;
+				height: 300px;
+			}
+			.vid {
+				width:100%
+			}
+
+
+		}
