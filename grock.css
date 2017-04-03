@@ -39,7 +39,7 @@ h1{
 	padding: 10%;
 	background: url("crowd.png");
 	background-repeat: no-repeat;
-	background-size: cover center, center;
+	background-size: cover;
 }
 
 .buttoncontainer {
@@ -84,17 +84,94 @@ button {
 					#container2 .band-content{
 						margin-top: 30%;
 					}
-
-
+					#container3 .band-content{
+						margin-top: 50%;
+					}
+					#container4 .band-content{
+						margin-top: 50%;
+					}
+					#container5 .band-content{
+						margin-top:50%;
+					}
+					#container7 .band-content{
+						margin-top:45%;
+					}
+					#container8 .band-content{
+						margin-top:35%;
+					}
+					#container9 .band-content{
+						margin-top:80%;
+					}
+					#container10 .band-content{
+						margin-top:40%;
+					}
+					#container11 .band-content{
+						margin-top:50%;
+					}
+					#container12 .band-content{
+						margin-top:30%;
+					}
+					#container13 .band-content{
+						margin-top:40%;
+					}
+					#container14 .band-content{
+						margin-top:40%;
+					}
+					#container15 .band-content{
+						margin-top:40%;
+					}
+					#container16 .band-content{
+						margin-top:45%;
+					}
 
 #container1 {
 	background-image: url("kingsmen.jpg");
 }
-
 #container2 {
 	background-image: url("velvets.jpg");
 }
-
+#container3 {
+	background-image: url("4beatles.jpg");
+}
+#container4 {
+	background-image: url("rollingstones.jpg");
+}
+#container5 {
+	background-image: url("kinks.jpg");
+}
+#container6 {
+	background-image: url("sonics.jpg");
+}
+#container7 {
+	background-image: url("stooges.jpg");
+}
+#container8 {
+	background-image: url("ramones.jpg");
+}
+#container9 {
+	background-image: url("cramps.jpg");
+}
+#container10 {
+	background-image: url("x.jpg");
+}
+#container11 {
+	background-image: url("delfuegos.jpg");
+}
+#container12 {
+	background-image: url("oblivians.jpg");
+}
+#container13 {
+	background-image: url("theeohsees.jpg");
+}
+#container14 {
+	background-image: url("strokes.jpg");
+}
+#container15 {
+	background-image: url("whitestripes.jpg");
+}
+#container16 {
+	background-image: url("yeahyeahyeahs.jpg");
+}
 
 
 .bandheaders {
@@ -103,6 +180,7 @@ button {
 	font-weight: bold;
 	color: #B21818;
 	font-size: 50px;
+	background-color: rgba(255,255,255,.5);
 }
 
 .band-info {
@@ -131,10 +209,28 @@ button {
 
 .audio {
 	display:inline-flex;
+
 }
 
 .vid {
 	display:inline-flex;
+}
+
+.live-caption {
+	display: inline-flex;
+	margin-left: 16%;
+	font-family: 'Univers', sans-serif;
+	font-style: oblique;
+	font-weight: normal;
+	font-size:100%;
+}
+.interview-caption {
+	display: inline-flex;
+	margin-left: 23%;
+	font-family: 'Univers', sans-serif;
+	font-style: oblique;
+	font-weight: normal;
+	font-size:100%;
 }
 
 
@@ -153,9 +249,19 @@ button {
 				width:100%;
 				height: 300px;
 			}
-			.vid {
-				width:100%
+			.band-info {
+				max-width: 100%;
+				margin-left: 0;
 			}
+			.vid {
+			padding-top: 3%;
+			padding-bottom: 3%;
+			}
+			.audio {
+				padding-top: 5%;
+				padding-bottom: 5%;
+			}
+
 
 
 		}

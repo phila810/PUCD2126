@@ -1,7 +1,21 @@
 var buttonMap = {
   "kingsmen": "#container1",
   "velvets": "#container2",
-  "beatles": "#container3"
+  "beatles": "#container3",
+  "rollingstones": "#container4",
+  "kinks": "#container5",
+  "sonics": "#container6",
+  "stooges": "#container7",
+  "ramones": "#container8",
+  "cramps": "#container9",
+  "x": "#container10",
+  "delfuegos": "#container11",
+  "oblivians": "#container12",
+  "theeohsees": "#container13",
+  "strokes": "#container14",
+  "whitestripes": "#container15",
+  "yeahyeahyeahs": "#container16"
+
 };
 
 // var pageHeight = $(window).height();
