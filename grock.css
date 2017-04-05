@@ -123,6 +123,30 @@ button {
 					#container16 .band-content{
 						margin-top:45%;
 					}
+					#container17 .band-content{
+						margin-top:45%;
+					}
+					#container18 .band-content{
+						margin-top:45%;
+					}
+					#container19 .band-content{
+						margin-top:45%;
+					}
+					#container20 .band-content{
+						margin-top:45%;
+					}
+					#container21 .band-content{
+						margin-top:50%;
+					}
+					#container22 .band-content{
+						margin-top:50%;
+					}
+					#container23 .band-content{
+						margin-top:80%;
+					}
+					#container24 .band-content{
+						margin-top:45%;
+					}
 
 #container1 {
 	background-image: url("kingsmen.jpg");
@@ -171,6 +195,30 @@ button {
 }
 #container16 {
 	background-image: url("yeahyeahyeahs.jpg");
+}
+#container17 {
+	background-image: url("blackkeys.jpg");
+}
+#container18 {
+	background-image: url("blacklips.jpg");
+}
+#container19 {
+	background-image: url("growlers.jpg");
+}
+#container20 {
+	background-image: url("bassdrumofdeath.jpg");
+}
+#container21 {
+	background-image: url("orwells.jpg");
+}
+#container22 {
+	background-image: url("tysegall.jpg");
+}
+#container23 {
+	background-image: url("jayreatard.jpg");
+}
+#container24 {
+	background-image: url("allahlas.jpg");
 }
 
 
@@ -260,6 +308,21 @@ button {
 			.audio {
 				padding-top: 5%;
 				padding-bottom: 5%;
+			}
+
+			.bandheaders {
+				background-color: transparent;
+				padding-top:0%;
+				padding-bottom: 0%;
+				font-size:25px;
+			}
+			.band-container {
+				background-size: 100% auto;
+				background-repeat: no-repeat;
+				display:none;
+				margin-top: 250%;
+			}
+
 			}
 
 

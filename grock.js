@@ -14,7 +14,16 @@ var buttonMap = {
   "theeohsees": "#container13",
   "strokes": "#container14",
   "whitestripes": "#container15",
-  "yeahyeahyeahs": "#container16"
+  "yeahyeahyeahs": "#container16",
+  "blackkeys": "#container17",
+  "blacklips": "#container18",
+  "growlers": "#container19",
+  "bassdrumofdeath": "#container20",
+  "orwells": "#container21",
+  "tysegall": "#container22",
+  "jayreatard": "#container23",
+  "allahlas": "#container24"
+
 
 };
 
