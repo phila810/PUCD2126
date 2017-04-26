@@ -1,0 +1,11 @@
+.first + .two {
+  color:lightblue;
+}
+
+h1::first-letter{
+  font-size: 200%;
+}
+
+:only-of-type {
+  font-style: italic;
+}

@@ -1,0 +1,24 @@
+h1 {
+  font-size: 200px;
+}
+.pcont {
+  height:300px;
+  width:800px;
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+  h1 {
+    font-size: 50px;
+  }
+  .pcont {
+    width:350px;
+  }
+
+
+}
