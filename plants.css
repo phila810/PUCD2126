@@ -1,12 +1,40 @@
+.homecontainer {
+  width:640;
+}
 
 
-.header {
+
+h1 {
 font-family: 'Avenir';
-font-size: 40px;
-line-height: 80px;
-padding:20px 15px;
-max-width: 50%;
+font-size: 80px;
+line-height: 90px;
 margin-left: 25%;
-text-align: center;
-background-color: rgba(255,255,255,.5);
+margin-top:10%;
+max-width: 50%;
+justify-content: center;
+background-color: rgba(70, 139, 84, 1);
+}
+
+
+
+button {
+  background-color: rgba(70, 139, 84, 1);
+  border:none;
+   color: black;
+   height:110px;
+   width:110px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+#sleep {
+   margin-left:10%;
+}
+#air {
+   margin-left: 10%;
+}
+#stress {
+   margin-left: 60%;
 }
