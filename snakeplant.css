@@ -1,0 +1,10 @@
+h1 {
+  font-family: 'Avenir';
+  font-size: 4em;
+  line-height: 1em;
+  text-align: center;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgba(70, 139, 84, 1);
+}

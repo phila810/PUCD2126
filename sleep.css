@@ -1,0 +1,64 @@
+.sleepheader {
+  max-width: 100%
+}
+
+h1 {
+  font-family: 'Avenir';
+  font-size: 4em;
+  line-height: 1em;
+  text-align: center;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: rgba(70, 139, 84, 1);
+}
+
+.info {
+  font-family: 'Avenir';
+  font-size: 1.5em;
+  line-height: 1.2em;
+  max-width: 80%;
+  background-color: white;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+.photocontainer1 {
+  max-width:100%;
+  background-color: white;
+  text-align: center;
+}
+#gardenia {
+  height:40%;
+  width:30%;
+  margin-left: -6%;
+}
+#peacelilly {
+  max-height:40%;
+  max-width:30%;
+  margin-left: 6%;
+
+}
+
+
+.photocontainer2 {
+  max-width:100%;
+  background-color: white;
+  text-align: center;
+}
+#snakeplant {
+  height:40%;
+  width:30%;
+  margin-left: -6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#gerberadaisy {
+  height:40%;
+  width:30%;
+  margin-left: 6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
