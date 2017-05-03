@@ -1,4 +1,4 @@
-@media screen and (max-width:640px){
+@media screen and (max-width:700px){
 
 
 .headerstuff {
@@ -7,10 +7,11 @@
 
     h1 {
       font-family: 'Avenir';
-      font-size: 700%;
+      font-size: 4em;
       line-height: 1em;
       margin-top:10%;
       text-align: center;
+      width: 100%;
 
 
     }
