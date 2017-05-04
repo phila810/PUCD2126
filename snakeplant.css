@@ -1,5 +1,7 @@
 h1 {
   font-family: 'Avenir';
+  font-weight: lighter;
+  color: white;
   font-size: 4em;
   line-height: 1em;
   text-align: center;
@@ -7,4 +9,62 @@ h1 {
   padding-top: 5%;
   padding-bottom: 5%;
   background-color: rgba(70, 139, 84, 1);
+}
+
+#snakeplantdecor {
+  height:auto;
+  width:100%;
+}
+
+.info {
+  font-family: 'Avenir';
+  font-size: 1.5em;
+  line-height: 1.2em;
+  max-width: 80%;
+  background-color: white;
+  text-align: left;
+  margin-left: 0%;
+  padding:5%;
+  margin-bottom:20%;
+}
+
+h2 {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  color:white;
+  font-size:2em;
+  text-align: center;
+  width:100%;
+  background-color: rgba(70, 139, 84, 1);
+  margin-top: 30%;
+}
+
+#sunp {
+  font-family: 'Avenir';
+  font-size:1.5em;
+  line-height: 1.2em;
+  background-color: white;
+  padding:5%;
+}
+
+#waterp {
+  font-family: 'Avenir';
+  font-size:1.5em;
+  line-height: 1.2em;
+  background-color: white;
+  padding:5%;
+
+
+}
+
+#sun {
+  height:auto;
+  width:35%;
+
+}
+
+#water {
+  height:auto;
+  width:30%;
+
 }

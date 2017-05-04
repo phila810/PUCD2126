@@ -4,6 +4,8 @@
 
 h1 {
   font-family: 'Avenir';
+  font-weight:lighter;
+  color: white;
   font-size: 4em;
   line-height: 1em;
   text-align: center;
@@ -15,6 +17,7 @@ h1 {
 
 .info {
   font-family: 'Avenir';
+  font-weight: lighter;
   font-size: 1.5em;
   line-height: 1.2em;
   max-width: 80%;
@@ -31,13 +34,13 @@ h1 {
   text-align: center;
 }
 #gardenia {
-  height:40%;
+  height:auto;
   width:30%;
   margin-left: -6%;
 }
 #peacelilly {
-  max-height:40%;
-  max-width:30%;
+  height:auto;
+  width:30%;
   margin-left: 6%;
 
 }
@@ -49,16 +52,26 @@ h1 {
   text-align: center;
 }
 #snakeplant {
-  height:40%;
+  height:auto;
   width:30%;
   margin-left: -6%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 #gerberadaisy {
-  height:40%;
+  height:auto;
   width:30%;
   margin-left: 6%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+p {
+  font-family: 'Avenir'
+}
+#pgardnia{
+
+}
+#ppeacelilly
+#psnakeplant
+#pgerberadaisy
