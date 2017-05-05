@@ -83,7 +83,7 @@ p {
 #psnakeplant
 #pgerberadaisy
 
-button {
+#homebttn {
         font-family: 'Avenir';
         font-weight: lighter;
         background-color: rgba(70, 139, 84, 1);
@@ -94,6 +94,19 @@ button {
          text-align: center;
          text-decoration: none;
          display: inline-block;
-         font-size: 6em;
+         font-size: 2em;
          text-decoration: none;
       }
+button {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  background-color: rgba(70, 139, 84, 1);
+  border:none;
+   color: black;
+
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 2em;
+   text-decoration: none;
+}
