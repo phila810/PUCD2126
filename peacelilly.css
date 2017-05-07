@@ -1,27 +1,25 @@
 body{
   margin: 0;
 }
-h1 {
-  font-family: 'Avenir';
-  font-weight: lighter;
-  color: white;
-  font-size: 4em;
-  line-height: 1em;
-  text-align: center;
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-color: #2F4F2F;
-  letter-spacing: .1em;
-  margin-bottom: 10%;
+H1 {
+font-family: 'Avenir';
+font-weight:lighter;
+color: white;
+font-size: 4em;
+line-height: 1em;
+text-align: center;
+width: 100%;
+padding-top: 8%;
+padding-bottom: 8%;
+background-color: #2F4F2F;
+letter-spacing: .1em;
+margin-bottom: 10%;
 }
 
-#snakeplantdecor {
+#peacelilly {
   height:auto;
   width:100%;
-
 }
-
 .info {
   font-family: 'Avenir';
   font-size: 1.5em;
@@ -44,58 +42,64 @@ h2 {
   width:100%;
   background-color: #2F4F2F;
   letter-spacing: .1em;
-}
-
-#sunp {
-  font-family: 'Avenir';
-  font-size:1.5em;
-  line-height: 1.2em;
-  background-color: white;
-  padding:5%;
-  margin-top:5%;
   margin-bottom: 10%;
-}
-
-#waterp {
-  font-family: 'Avenir';
-  font-size:1.5em;
-  line-height: 1.2em;
-  background-color: white;
-  padding:5%;
-  margin-bottom: 10%;
-  margin-top: 10%;
 }
 
 #sun {
   height:auto;
   width:35%;
+
+}
+#sunp {
+  font-family: 'Avenir';
+  font-size: 1.5em;
+  line-height: 1.2em;
+  max-width: 80%;
+  background-color: white;
+  text-align: left;
+  margin-left: 0%;
+  padding:5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #water {
   height:auto;
   width:30%;
 }
-#buttoncontainer {
-  width:100%;
+
+#waterp {
+  font-family: 'Avenir';
+  font-size: 1.5em;
+  line-height: 1.2em;
+  max-width: 80%;
+  background-color: white;
+  text-align: left;
+  margin-left: 0%;
+  padding:5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
+
 #homebttn {
-        font-family: 'Avenir';
-        font-weight: lighter;
-        background-color: #2F4F2F;
-        border:none;
-         color: black;
-         height:auto;
-         width:25%;
-         padding-top: 3%;
-         padding-bottom:3%;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 1.5em;
-         text-decoration: none;
-         letter-spacing: .1em;
-         float:right;
-      }
+  font-family: 'Avenir';
+  font-weight: lighter;
+  background-color: #2F4F2F;
+  border:none;
+   color: black;
+   height:auto;
+   width:25%;
+   padding-top: 3%;
+   padding-bottom:3%;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1.5em;
+   text-decoration: none;
+   letter-spacing: .1em;
+   float:right;
+}
+
 #back {
   font-family: 'Avenir';
   font-weight: lighter;
