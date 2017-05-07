@@ -20,11 +20,11 @@ background-color: #2F4F2F;
 letter-spacing: .1em;
 margin-bottom: 10%;
 }
-
-#peacelilly {
+#gerbera {
   height:auto;
   width:100%;
 }
+
 .info {
   font-family: 'Avenir';
   font-size: 1.5em;
@@ -37,7 +37,6 @@ margin-bottom: 10%;
   margin-top:10%;
   margin-bottom: 10%;
 }
-
 h2 {
   font-family: 'Avenir';
   font-weight: lighter;
@@ -49,12 +48,25 @@ h2 {
   letter-spacing: .1em;
   margin-bottom: 10%;
 }
-
-#sun {
-  height:auto;
-  width:25%;
-
+#suncontainer {
+  width:100%;
+  text-align: left;
 }
+        #sun1 {
+          height:auto;
+          width:25%;
+          }
+        #sun2 {
+          height:auto;
+          width:25%;
+          padding-left: 3%;
+          padding-right:3%;
+          }
+          #sun3 {
+          height:auto;
+          width:25%;
+          }
+
 #sunp {
   font-family: 'Avenir';
   font-size: 1.5em;
@@ -68,10 +80,19 @@ h2 {
   margin-bottom: 10%;
 }
 
-#water {
-  height:auto;
-  width:20%;
+#watercontainer {
+  width:100%;
+  text-align: left;
 }
+          #water1 {
+            height:auto;
+            width:20%;
+          }
+          #water2 {
+            height:auto;
+            width:20%;
+            padding-left: 10%;
+          }
 
 #waterp {
   font-family: 'Avenir';
