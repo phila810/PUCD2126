@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+.sleepheader {
+  max-width: 100%
+}
+
+h1 {
+  font-family: 'Avenir';
+  font-weight:lighter;
+  color: white;
+  font-size: 4em;
+  line-height: 1em;
+  text-align: center;
+  width: 100%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #2F4F2F;
+  margin-bottom: 5%;
+}
+
+.info {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  max-width: 80%;
+  background-color: white;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-bottom:5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h2 {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+  margin-top: 10%;
+  margin-bottom:10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.photocontainer1 {
+  max-width:100%;
+  background-color: white;
+  margin-top: 0;
+}
+#chamomile {
+  height:auto;
+  width:45%;
+  margin-top:30%;
+  margin-left: 48%;
+  margin-top: 0%;
+}
+#violet {
+  height:auto;
+  width:45%;
+  margin-left: -90%;
+  padding: 0;
+}
+
+.photocontainer2 {
+  max-width:100%;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#lavender {
+  height:auto;
+  width:45%;
+  margin-left: -1%;
+  padding: 0;
+}
+
+#jasmine {
+  height:auto;
+  width:55%;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+p {
+  font-family: 'Avenir'
+}
+
+
+#homebttn {
+        font-family: 'Avenir';
+        font-weight: lighter;
+        background-color: #2F4F2F;
+        border:none;
+         color: black;
+         height:auto;
+         width:25%;
+         padding-top: 3%;
+         padding-bottom:3%;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 1.5em;
+         text-decoration: none;
+         letter-spacing: .1em;
+         float:right;
+         color:inherit;
+      }
+button {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  background-color: rgba(70, 139, 84, 1);
+  border:none;
+   color: black;
+   margin-left: 70%;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 2em;
+   text-decoration: none;
+}
