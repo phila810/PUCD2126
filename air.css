@@ -13,7 +13,7 @@ h1 {
   font-family: 'Avenir';
   font-weight:lighter;
   color: white;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1em;
   text-align: center;
   width: 100%;
@@ -21,6 +21,7 @@ h1 {
   padding-bottom: 8%;
   background-color: #2F4F2F;
   margin-bottom: 5%;
+  letter-spacing: .1em;
 }
 
 .info {
@@ -91,35 +92,19 @@ p {
 }
 
 
-#homebttn {
-        font-family: 'Avenir';
-        font-weight: lighter;
-        background-color: #2F4F2F;
-        border:none;
-         color: black;
-         height:auto;
-         width:25%;
-         padding-top: 3%;
-         padding-bottom:3%;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 1.5em;
-         text-decoration: none;
-         letter-spacing: .1em;
-         float:right;
-         color:inherit;
-      }
+
 button {
   font-family: 'Avenir';
   font-weight: lighter;
-  background-color: rgba(70, 139, 84, 1);
+  background-color: #2F4F2F;
+  height:10%;
+  width:30%;
   border:none;
-   color: black;
-   margin-left: 70%;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 2em;
-   text-decoration: none;
+  margin-left: 35%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  border-radius:35%;
+  margin-bottom:10%;
 }

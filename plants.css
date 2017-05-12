@@ -13,7 +13,7 @@ a {
       font-family: 'Avenir';
       font-weight: lighter;
       color: white;
-      font-size: 4em;
+      font-size: 3em;
       line-height: 1em;
       text-align: center;
       padding-top: 8%;
@@ -21,7 +21,11 @@ a {
       background-color: #2F4F2F;
       letter-spacing: .1em;
       margin-bottom: 10%;
+
     }
+.bigcont {
+  margin-top:15%;
+}
 
 .openparagraph {
   font-family: 'Avenir';
@@ -48,6 +52,7 @@ a {
 
 .buttons {
   width:100%;
+  margin-bottom: 0;
 }
   button {
         font-family: 'Avenir';
@@ -60,6 +65,8 @@ a {
          text-align: center;
          text-decoration: none;
           letter-spacing: .1em;
+          border-radius:20%;
+
 
 
       }
@@ -68,6 +75,7 @@ a {
              font-size: 1.5em;
              color:white;
              text-align: center;
+
           }
           #air {
              margin-left: 5%;
@@ -80,3 +88,12 @@ a {
               color:white;
               position:static;
           }
+
+#favorites {
+  margin-top:10%;
+  border-radius:0;
+  height:8%;
+  width:100%;
+  letter-spacing: .1em;
+  font-size: 1.5em;
+}

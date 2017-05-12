@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  color: white;
+  font-size: 3em;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #2F4F2F;
+  letter-spacing: .1em;
+  margin-bottom: 10%;
+
+}
+.headerstuff {
+  width:100%;
+}
+
+.bigcontainer {
+  background:#2F4F2F;
+  height:50%;
+  width:90%;
+  padding-top:.1%;
+  padding-bottom:0%;
+  margin-left: 5%;
+  border-radius: 15%;
+  margin-top:20%;
+
+}
+
+form {
+  font-family: 'Avenir';
+  font-weight: lighter;
+  margin-left:22%;
+  margin-top:20%;
+  color:white;
+  letter-spacing: .1em;
+
+}
+input {
+  height:5%;
+  width:70%;
+}
+.firstname {
+  margin-bottom:5%;
+}
+.buttoncontainer {
+  width:100%;
+}
+#loginbttn {
+        font-family: 'Avenir';
+        font-weight: lighter;
+         background-color: #2F4F2F;
+         text-decoration: none;
+         border:none;
+         height:5%;
+         width:20%;
+         text-align: center;
+         text-decoration: none;
+          letter-spacing: .1em;
+          font-size: 1em;
+
+          margin-left: 20%;
+}
+#signup {
+  font-family: 'Avenir';
+  font-weight: lighter;
+   background-color: #2F4F2F;
+   text-decoration: none;
+   border:none;
+   height:5%;
+   width:25%;
+   text-align: center;
+   text-decoration: none;
+    letter-spacing: .1em;
+    font-size: 1em;
+
+    margin-left: 13%;
+}
+#skip {
+  font-family: 'Avenir';
+  font-weight: lighter;
+   background-color: #2F4F2F;
+   text-decoration: none;
+   border:none;
+   height:14%;
+   width:70%;
+   text-align: center;
+   text-decoration: none;
+    letter-spacing: .1em;
+    font-size: .7em;
+    border-radius:20%;
+    margin-left: 15%;
+    margin-top:10%;
+}
